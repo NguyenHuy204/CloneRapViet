@@ -1,0 +1,104 @@
+.wrapper{
+    width: 70%;
+    margin:auto;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    font-family: Arial, sans-serif;
+}
+/* format logo */
+.logo_header{
+    
+    text-align: center;   
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+/* format main content = flex */
+.flex_container{
+    display: flex;
+    width: 100%;
+    height: 700px;
+    border-radius: 20px;
+    background-color: aliceblue;
+    margin-bottom: 70px;
+    
+
+}
+.flex_container div{
+    padding: 20px;
+    
+    
+   
+}
+/* format body */
+body {
+    background-image: url(/image/Background.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+  }
+
+/* format output */
+
+.download_btn{
+    background-color: blue;
+    border-style: none;
+    border-radius: 30px;
+    height: 45px;
+    width: 100%;
+    color: aliceblue;
+    font-weight: 600;
+}
+.download_btn:hover{
+    cursor: pointer;
+    background-color: darkblue;
+    
+}
+.upload_img{
+    
+    border-style: none;
+    border-radius: 30px;
+    height: 45px;   
+    width: 100%;
+    font-weight: 600;
+}
+.upload_img:hover{
+    cursor: pointer;
+    background-color: aqua;
+}
+.info_user input {
+    padding-left: 10px;
+    height: 40px; 
+    width: 100%; 
+    max-width: 400px;
+    border: 1px solid #ccc;
+    border-radius:30px; 
+    margin-bottom: 5px; 
+}
+
+.image-preview {
+    width: 100%;
+    max-width: 600px; 
+    height: 300px; 
+    border: 2px dashed #ccc;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.image-preview img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
